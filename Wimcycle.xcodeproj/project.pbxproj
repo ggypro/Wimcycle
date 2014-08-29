@@ -19,6 +19,9 @@
 		979C536B19AFEA9B00A3FC02 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 979C535319AFEA9A00A3FC02 /* UIKit.framework */; };
 		979C537319AFEA9B00A3FC02 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 979C537119AFEA9B00A3FC02 /* InfoPlist.strings */; };
 		979C537519AFEA9B00A3FC02 /* WimcycleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 979C537419AFEA9B00A3FC02 /* WimcycleTests.m */; };
+		979C537F19AFEF9500A3FC02 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 979C537E19AFEF9500A3FC02 /* Main.storyboard */; };
+		979C538219B0012C00A3FC02 /* bicycle@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 979C538019B0012C00A3FC02 /* bicycle@2x.png */; };
+		979C538319B0012C00A3FC02 /* bicycle.png in Resources */ = {isa = PBXBuildFile; fileRef = 979C538119B0012C00A3FC02 /* bicycle.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +51,9 @@
 		979C537019AFEA9B00A3FC02 /* WimcycleTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "WimcycleTests-Info.plist"; sourceTree = "<group>"; };
 		979C537219AFEA9B00A3FC02 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		979C537419AFEA9B00A3FC02 /* WimcycleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WimcycleTests.m; sourceTree = "<group>"; };
+		979C537E19AFEF9500A3FC02 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		979C538019B0012C00A3FC02 /* bicycle@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bicycle@2x.png"; sourceTree = "<group>"; };
+		979C538119B0012C00A3FC02 /* bicycle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bicycle.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +83,7 @@
 		979C534319AFEA9A00A3FC02 = {
 			isa = PBXGroup;
 			children = (
+				979C538419B0013000A3FC02 /* Images */,
 				979C535519AFEA9B00A3FC02 /* Wimcycle */,
 				979C536E19AFEA9B00A3FC02 /* WimcycleTests */,
 				979C534E19AFEA9A00A3FC02 /* Frameworks */,
@@ -111,6 +118,7 @@
 				979C535F19AFEA9B00A3FC02 /* WIMAppDelegate.m */,
 				979C536119AFEA9B00A3FC02 /* Images.xcassets */,
 				979C535619AFEA9B00A3FC02 /* Supporting Files */,
+				979C537E19AFEF9500A3FC02 /* Main.storyboard */,
 			);
 			path = Wimcycle;
 			sourceTree = "<group>";
@@ -142,6 +150,15 @@
 				979C537119AFEA9B00A3FC02 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		979C538419B0013000A3FC02 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				979C538019B0012C00A3FC02 /* bicycle@2x.png */,
+				979C538119B0012C00A3FC02 /* bicycle.png */,
+			);
+			name = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -220,7 +237,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				979C537F19AFEF9500A3FC02 /* Main.storyboard in Resources */,
+				979C538319B0012C00A3FC02 /* bicycle.png in Resources */,
 				979C535A19AFEA9B00A3FC02 /* InfoPlist.strings in Resources */,
+				979C538219B0012C00A3FC02 /* bicycle@2x.png in Resources */,
 				979C536219AFEA9B00A3FC02 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
